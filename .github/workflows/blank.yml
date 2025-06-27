@@ -28,10 +28,10 @@ jobs:
         
         
   name: Publish report
-    uses: MeilCli/slack-upload-file@v1
-    with:
+  uses: MeilCli/slack-upload-file@v1
+  with:
       slack_token: ${{ secrets.SLACK_TOKEN }}
-          file_path: 'htmlreport.html'
-          file_name: 'postmanReport.html'
-          file_type: 'html'
-          channels: 'newmanreporter'
+      file_path: 'htmlreport.html'
+      file_name: 'postmanReport.html'
+      file_type: 'html'
+      channels: 'newmanreporter'

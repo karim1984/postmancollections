@@ -33,4 +33,4 @@ jobs:
           file_path: 'htmlreport.html'
           file_name: 'postmanReport.html'
           file_type: 'html'
-          channels: 'newmanreporter'
+          channels: 'all-testworkspace'

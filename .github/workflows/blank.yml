@@ -27,7 +27,7 @@ jobs:
         run: "newman run products_collection.postman_collection.json -e qa.postman_environment.json -r htmlextra --reporter-htmlextra-export testartifacts/htmlreport.html --reporter-htmlextra-darkTheme  > runreport1.html"
 
       - name: Output test results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name:
           path: testartificats

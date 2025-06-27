@@ -5,7 +5,7 @@ jobs:
   test: 
     defaults: 
       run: 
-        working-directory: ./tests
+        working-directory: .
     environment: staging
     name: "Run tests"
     runs-on: ubuntu-latest
